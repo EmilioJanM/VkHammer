@@ -15,3 +15,5 @@ Estando en el proyecto en VkHammer.cpp (VkHammer/VkHammerClass) a partir de la l
 Los comportamientos de los planetas se definen en la clase ModelLoader.h (Geometry/ModelLoader)
 
 Jueguen, no se olviden de poner el proyecto en release de x64, no debug
+
+https://gyazo.com/c21f2d0e38cf5c482b17371561924889
