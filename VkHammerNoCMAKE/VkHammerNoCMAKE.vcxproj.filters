@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="VkHammer">
+      <UniqueIdentifier>{b8a15e72-51ca-4752-bc4e-6e823f3c50e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\Components">
+      <UniqueIdentifier>{6ef96362-a025-487c-9bfe-5c277a644e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\Components\Instance">
+      <UniqueIdentifier>{fcdac75b-e204-44e5-9ff6-1445f658e488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\Components\LogicalDevice">
+      <UniqueIdentifier>{66847cc3-21cd-4836-a80b-c525cf76f0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\Components\PhysicalDevice">
+      <UniqueIdentifier>{3f7bc221-c4d4-4477-8e1c-bddfd0ee46ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\VkHammerClass">
+      <UniqueIdentifier>{52672083-48fd-44fa-887f-60519842b1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\Components\SwapChain">
+      <UniqueIdentifier>{728f3427-11b7-4a76-ab74-53ec84e7f99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\Components\ImageView">
+      <UniqueIdentifier>{990f5ba3-8e41-463a-b974-a288cea532f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\Graphics Pipeline">
+      <UniqueIdentifier>{8115edda-a6d6-4bae-b821-70abb3ade1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9b0e8005-6c8a-44eb-a8e5-dcbea5ce3980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Tests">
+      <UniqueIdentifier>{f5bcf48d-fffc-4f46-adfc-fc607e80d76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Tests\Solids">
+      <UniqueIdentifier>{ee0f12f4-9788-4ddb-9f1d-dc667f9ebf77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{700964f9-00f0-447e-a1e7-32e0993840e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Triangle">
+      <UniqueIdentifier>{b8b44fa4-3092-4c6c-9e89-b31695a58eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Entity">
+      <UniqueIdentifier>{dde5ede9-d392-45ae-b504-b6b9db30e7af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\Camera">
+      <UniqueIdentifier>{ff158ce1-57b1-473f-b73d-d202eb169412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\SkyBox">
+      <UniqueIdentifier>{17e0e500-f045-43f9-bae2-9a47f9a463da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\Time">
+      <UniqueIdentifier>{0c1f8002-0048-4345-9bb4-779af137b42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Objects">
+      <UniqueIdentifier>{0edb3d1b-ccf4-4902-8b64-52c4d333817d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Objects\Sea">
+      <UniqueIdentifier>{cb40e8c5-c36a-4e82-9040-a0ac73234bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Objects\Sea\Node">
+      <UniqueIdentifier>{a213388c-eca8-4758-bf04-f484942e4d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkHammer\ImageLoader">
+      <UniqueIdentifier>{b52dcecb-48a7-412e-8a50-0f52b6ecb309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\ModelLoader">
+      <UniqueIdentifier>{fc66bce8-ad24-4787-b319-797d48980224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Behavaiours">
+      <UniqueIdentifier>{c2998a64-fa7f-47e3-a8da-cd13ed6b2279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Behavaiours\BehaviourSuperclass">
+      <UniqueIdentifier>{bd19a268-d002-4157-9165-f5a556b95e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Behavaiours\PlanetBehaviour">
+      <UniqueIdentifier>{64ab4830-3ab3-4ec1-a391-a6e25d07705d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Entity\EntityInfo">
+      <UniqueIdentifier>{326adda4-d533-4d56-a8dc-5230581513a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CInstance.cpp">
+      <Filter>VkHammer\Components\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="CPhysicalDevice.cpp">
+      <Filter>VkHammer\Components\PhysicalDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogicalDevice.cpp">
+      <Filter>VkHammer\Components\LogicalDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="VkHammer.cpp">
+      <Filter>VkHammer\VkHammerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CSwapChain.cpp">
+      <Filter>VkHammer\Components\SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="CImageView.cpp">
+      <Filter>VkHammer\Components\ImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphicsPipeline.cpp">
+      <Filter>VkHammer\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Geometry\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Geometry\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities.cpp">
+      <Filter>Geometry\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffersManagment.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Khronos.cpp">
+      <Filter>VkHammer\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Sea.cpp">
+      <Filter>Geometry\Objects\Sea</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Geometry\Objects\Sea\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Geometry\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>VkHammer\ImageLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Geometry\ModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviour.cpp">
+      <Filter>Geometry\Behavaiours\BehaviourSuperclass</Filter>
+    </ClCompile>
+    <ClCompile Include="MoonBehaviour.cpp">
+      <Filter>Geometry\Behavaiours\PlanetBehaviour</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CInstance.h">
+      <Filter>VkHammer\Components\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="CPhysicalDevice.h">
+      <Filter>VkHammer\Components\PhysicalDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogicalDevice.h">
+      <Filter>VkHammer\Components\LogicalDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="VkHammer.h">
+      <Filter>VkHammer\VkHammerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CSwapChain.h">
+      <Filter>VkHammer\Components\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageView.h">
+      <Filter>VkHammer\Components\ImageView</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphicsPipeline.h">
+      <Filter>VkHammer\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Geometry\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Geometry\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Geometry\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffersManagment.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>VkHammer\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Khronos.h">
+      <Filter>VkHammer\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Sea.h">
+      <Filter>Geometry\Objects\Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Geometry\Objects\Sea\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Geometry\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>VkHammer\ImageLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Geometry\ModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="VkHammerStruct.h">
+      <Filter>VkHammer</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviour.h">
+      <Filter>Geometry\Behavaiours\BehaviourSuperclass</Filter>
+    </ClInclude>
+    <ClInclude Include="MoonBehaviour.h">
+      <Filter>Geometry\Behavaiours\PlanetBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Geometry\Entity\EntityInfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
